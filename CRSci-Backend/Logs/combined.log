@@ -50,3 +50,4 @@
 {"level":"info","message":"GET /dashboard/getAdminDashboardSummaries 200 130 - 7.945 ms\n","timestamp":"2025-10-06 14:18:09"}
 {"level":"info","message":"GET /user/getAllUsersProfile?limit=10&page=1&orderBy=&sortBy=&keyword=&role= 200 504 - 3.335 ms\n","timestamp":"2025-10-06 14:18:09"}
 {"level":"info","message":"GET /resource/getResources?topic=&type=&limit=10&page=1&orderBy=&sortBy= 200 2752 - 4.444 ms\n","timestamp":"2025-10-06 14:18:09"}
+{"level":"info","message":"GET /video/getAllVideos 200 3053 - 19.490 ms\n","timestamp":"2025-10-06 14:26:52"}
