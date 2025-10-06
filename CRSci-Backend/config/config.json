@@ -1,0 +1,38 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "password",
+    "database": "crsci_db",
+    "host": "localhost",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": false
+    }
+  },
+  "test": {
+    "username": "postgres",
+    "password": "password",
+    "database": "crsci_test_db",
+    "host": "localhost",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "production": {
+    "username": "postgres",
+    "password": "password",
+    "database": "crsci_prod_db",
+    "host": "localhost",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}

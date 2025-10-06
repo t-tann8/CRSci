@@ -1,0 +1,3 @@
+{"level":"info","message":"GET /auth/login 404 149 - 3.252 ms\n","timestamp":"2025-10-06 14:04:15"}
+{"level":"info","message":"POST /auth/login 200 395 - 75.529 ms\n","timestamp":"2025-10-06 14:05:01"}
+{"level":"info","message":"GET /dashboard/getStudentDashboardSummaries 200 247 - 7.754 ms\n","timestamp":"2025-10-06 14:05:02"}

@@ -1,5 +1,14 @@
 {
-  "node": {},
+  "node": {
+    "22f9d0b0c67ba970536b272f9e75117259a6b458": {
+      "workers": {
+        "app/(home)/student/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftracytannjr%2FDesktop%2FCRSci%2Fapp%2Faction.ts%22%2C%5B%22default%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(home)/student/page": "action-browser"
+      }
+    }
+  },
   "edge": {},
-  "encryptionKey": "Zkyflq6ZCo8UNeVu/UGm00dQV5zhoWiyrIjvW3jPwcc="
+  "encryptionKey": "J0TOTmyKVo8sc+cX9tniRZ5hoPI2ed19N9OpdQLqOFg="
 }

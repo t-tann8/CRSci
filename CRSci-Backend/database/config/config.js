@@ -8,10 +8,7 @@ module.exports = {
     "host": process.env.AWS_HOST,
     "dialect": process.env.AWS_DIALECT,
     "dialectOptions": {
-      "ssl": {
-        "require": true,
-        "rejectUnauthorized": false
-      }
+      "ssl": false
     }
   },
   "test": {
@@ -21,10 +18,7 @@ module.exports = {
     "host": process.env.AWS_HOST,
     "dialect": process.env.AWS_DIALECT,
     "dialectOptions": {
-      "ssl": {
-        "require": true,
-        "rejectUnauthorized": false
-      }
+      "ssl": false
     }
   },
   "production": {
@@ -34,10 +28,7 @@ module.exports = {
     "host": process.env.AWS_HOST,
     "dialect": process.env.AWS_DIALECT,
     "dialectOptions": {
-      "ssl": {
-        "require": true,
-        "rejectUnauthorized": false
-      }
+      "ssl": false
     }
   },
 }
