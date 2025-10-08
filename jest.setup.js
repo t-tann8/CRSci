@@ -56,7 +56,7 @@ jest.mock('react-toastify', () => ({
   },
 }))
 
-// Global test setup
+// Global test setup.
 global.ResizeObserver = jest.fn().mockImplementation(() => ({
   observe: jest.fn(),
   unobserve: jest.fn(),

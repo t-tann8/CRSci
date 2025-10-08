@@ -324,9 +324,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 **Developer**
 
 **Tracy Tann Jr.**
-- Portfolio: [Your Portfolio URL]
-- LinkedIn: [Your LinkedIn]
-- Email: [Your Email]
+- Portfolio: https://tj-s-personal-site.vercel.app/
+- LinkedIn: https://www.linkedin.com/in/tracytannjr/
+- Email: tracytann23@gmail.com
 
 ---
 
