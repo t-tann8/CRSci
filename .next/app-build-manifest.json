@@ -1,19 +1,36 @@
 {
   "pages": {
-    "/(home)/admin/video/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(home)/admin/video/page.js"
+      "static/chunks/app/page.js"
     ],
-    "/(home)/admin/video/layout": [
+    "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(home)/admin/video/layout.js"
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
-    "/(home)/admin/video/loading": [
+    "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(home)/admin/video/loading.js"
+      "static/chunks/app/not-found.js"
+    ],
+    "/(auth)/signin/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(auth)/signin/page.js"
+    ],
+    "/(auth)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(auth)/layout.js"
+    ],
+    "/(home)/admin/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(home)/admin/page.css",
+      "static/chunks/app/(home)/admin/page.js"
     ],
     "/(home)/admin/layout": [
       "static/chunks/webpack.js",
@@ -35,23 +52,6 @@
       "static/chunks/main-app.js",
       "static/css/app/(home)/layout.css",
       "static/chunks/app/(home)/layout.js"
-    ],
-    "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
-    ],
-    "/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
-    ],
-    "/(home)/admin/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(home)/admin/page.css",
-      "static/chunks/app/(home)/admin/page.js"
     ]
   }
 }
